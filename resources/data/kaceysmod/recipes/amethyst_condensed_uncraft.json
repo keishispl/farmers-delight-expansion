@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "amethyst_longsword",
+  "category": "misc",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "kaceysmod:condensed_amethyst"
+    }
+  },
+  "result": {
+    "item": "minecraft:echo_shardamethyst_condensed.json",
+    "count": 1
+  }
+}

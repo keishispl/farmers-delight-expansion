@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "amethyst_longsword",
+  "category": "misc",
+  "pattern": [
+    " 0 ",
+    "010",
+    " 0 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "1": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "kaceysmod:amethyst_netherite_ingot",
+    "count": 1
+  }
+}

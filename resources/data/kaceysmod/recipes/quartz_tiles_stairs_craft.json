@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "polished_stairs",
+  "key": {
+    "#": {
+      "item": "kaceysmod:quartz_tiles"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "item": "kaceysmod:quartz_tiles_stairs"
+  }
+}

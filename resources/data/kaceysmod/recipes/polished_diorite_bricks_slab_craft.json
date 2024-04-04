@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "polished_stairs",
+  "key": {
+    "#": {
+      "item": "kaceysmod:polished_diorite_bricks"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "kaceysmod:polished_diorite_bricks_slab"
+  }
+}

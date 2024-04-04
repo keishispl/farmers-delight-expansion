@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "kaceysmod:block/polished_granite_bricks_slab"
+    },
+    "type=double": {
+      "model": "kaceysmod:block/polished_granite_bricks"
+    },
+    "type=top": {
+      "model": "kaceysmod:block/polished_granite_bricks_slab_top"
+    }
+  }
+}

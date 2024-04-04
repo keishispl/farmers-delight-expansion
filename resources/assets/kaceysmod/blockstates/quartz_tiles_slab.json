@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "kaceysmod:block/quartz_tiles_slab"
+    },
+    "type=double": {
+      "model": "kaceysmod:block/quartz_tiles"
+    },
+    "type=top": {
+      "model": "kaceysmod:block/quartz_tiles_slab_top"
+    }
+  }
+}

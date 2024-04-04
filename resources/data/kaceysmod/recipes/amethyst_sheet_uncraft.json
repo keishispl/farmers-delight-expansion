@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "amethyst_longsword",
+  "category": "misc",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "kaceysmod:amethyst_sheet"
+    }
+  },
+  "result": {
+    "item": "minecraft:gold_ingot",
+    "count": 1
+  }
+}

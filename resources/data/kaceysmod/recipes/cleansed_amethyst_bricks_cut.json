@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "cleansed_amethyst",
+  "count": 1,
+  "ingredient": {
+    "item": "kaceysmod:cleansed_amethyst"
+  },
+  "result": "kaceysmod:cleansed_amethyst_bricks"
+}
