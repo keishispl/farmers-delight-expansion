@@ -6,3 +6,4 @@ We require the mod [Fabric API](https://modrinth.com/mod/fabric-api)
 
 # Downloads
 To download this mod, please visit the [Modrinth page](https://modrinth.com/mod/kaceys-mod).
+Visit the official website (Still in construction) [here](https://keishispl.github.io/kaceysmod).
