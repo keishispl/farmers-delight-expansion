@@ -47,7 +47,6 @@ public class tab {
                 entries.add(features.AMETHYST_LONGSWORD);
 
                 entries.add(features.SMALLSWORD);
-                entries.add(features.SCYTHE);
             })
             .build();
 }

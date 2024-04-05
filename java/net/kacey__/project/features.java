@@ -33,5 +33,4 @@ public class features {
 	public static ToolItem AMETHYST_LONGSWORD = create.customsword(CustomSwordMaterials.AMETHYSTLONGSWORD, 5, -3f);
 
 	public static ToolItem SMALLSWORD = create.sword(net.minecraft.item.ToolMaterials.IRON, 2, -1.5f);
-	public static ToolItem SCYTHE = create.sword(net.minecraft.item.ToolMaterials.IRON, 3, -2f);
 }

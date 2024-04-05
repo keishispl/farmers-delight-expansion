@@ -35,7 +35,6 @@ public class load {
 		net.kacey__.project.settings.load.item("amethyst_longsword", features.AMETHYST_LONGSWORD);
 
 		net.kacey__.project.settings.load.item("smallsword", features.SMALLSWORD);
-		net.kacey__.project.settings.load.item("scythe", features.SCYTHE);
 	}
 	public static void tab() {
 		Registry.register(Registries.ITEM_GROUP, new Identifier(KaceysMod.MOD_ID, "main"), tab.CREATIVE_TAB);
