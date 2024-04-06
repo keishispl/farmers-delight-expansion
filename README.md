@@ -7,12 +7,12 @@ This mod adds new weapons (such as the lightweight low damaged smallsword) and a
 
 This mod also makes the grass block grass on all sides and makes the water much clearer.
 
-![Showing off full Grass Blocks and Clearer Water](https://keishispl.github.io/kaceysmod/features/img/water_after.png)
+![Showing off full Grass Blocks and Clearer Water](https://cdn.modrinth.com/data/O158bLYR/images/fe9ba568af8d3691b94c2ebff043595f51190c04.png)
 
 This mod will be great for all the builders out there who wants more variety of blocks.
 
 # Help Guide
-For downloads, please visit [the Modrinth page](https://modrinth.com/mod/kaceys-mod) (Coming Soon).
+For downloading, please visit [the Modrinth page](https://modrinth.com/mod/kaceys-mod).
 
 If you want to know more about the mod, you can also visit [our website](https://keishispl.github.io/kaceysmod).
 
