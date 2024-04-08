@@ -1,18 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "metal",
   "category": "misc",
   "pattern": [
-    " 0 ",
-    "0 0",
-    " 0 "
+    "00",
+    "00"
   ],
   "key": {
     "0": {
-      "item": "kaceysmod:metal_block"
+      "item": "kaceysmod:metal_sheet"
     }
   },
   "result": {
-    "item": "kaceysmod:metal_scaffolding",
-    "count": 1
+    "item": "kaceysmod:metal_block",
+    "count": 2
   }
 }

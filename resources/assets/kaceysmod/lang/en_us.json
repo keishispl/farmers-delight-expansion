@@ -3,6 +3,9 @@
   "block.kaceysmod.quartz_tiles_stairs": "Quartz Tiles Stairs",
   "block.kaceysmod.quartz_tiles_slab": "Quartz Tiles Slab",
 
+  "item.kaceysmod.metal_sheet": "Metal Sheet",
+  "block.kaceysmod.metal_block": "Metal Block",
+  "block.kaceysmod.metal_pillar": "Metal Pillar",
   "block.kaceysmod.metal_scaffolding": "Metal Scaffolding",
   "block.kaceysmod.metal_walkway": "Metal Walkway",
 

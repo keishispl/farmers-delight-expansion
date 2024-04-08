@@ -11,8 +11,11 @@ public class features {
 	public static Block QUARTZ_TILES_STAIRS = new StairsBlock(QUARTZ_TILES.getDefaultState(), create.blockSettings(0.8f, 0.8f, BlockSoundGroup.STONE, true));
 	public static Block QUARTZ_TILES_SLAB = new SlabBlock(create.blockSettings(0.8f, 0.8f, BlockSoundGroup.STONE, true));
 
-	public static Block METAL_SCAFFOLDING = create.transblock(7.5f, 7.5f, BlockSoundGroup.STONE, true);
-	public static Block METAL_WALKWAY = new SlabBlock(create.transblockSettings(7.5f, 7.5f, BlockSoundGroup.STONE, true));
+	public static Item METAL_SHEET = create.item();
+	public static Block METAL_BLOCK = create.block(7.5f, 7.5f, BlockSoundGroup.COPPER, true);
+	public static Block METAL_PILLAR = create.block(7.5f, 7.5f, BlockSoundGroup.COPPER, true);
+	public static Block METAL_SCAFFOLDING = create.transblock(7.5f, 7.5f, BlockSoundGroup.COPPER, false);
+	public static Block METAL_WALKWAY = new SlabBlock(create.transblockSettings(7.5f, 7.5f, BlockSoundGroup.COPPER, false));
 
 	public static Block POLISHED_DIORITE_BRICKS = create.block(1.5f, 6f, BlockSoundGroup.STONE, true);
 	public static Block POLISHED_DIORITE_BRICKS_STAIRS = new StairsBlock(POLISHED_DIORITE_BRICKS.getDefaultState(), create.blockSettings(1.5f, 6f, BlockSoundGroup.STONE, true));

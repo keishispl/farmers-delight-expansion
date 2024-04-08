@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "metal",
+  "count": 1,
+  "ingredient": {
+    "item": "kaceysmod:metal_pillar"
+  },
+  "result": "kaceysmod:metal_block"
+}

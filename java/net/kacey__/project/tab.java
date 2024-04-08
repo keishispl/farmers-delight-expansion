@@ -25,6 +25,9 @@ public class tab {
                 entries.add(features.QUARTZ_TILES_STAIRS);
                 entries.add(features.QUARTZ_TILES_SLAB);
 
+                entries.add(features.METAL_SHEET);
+                entries.add(features.METAL_BLOCK);
+                entries.add(features.METAL_PILLAR);
                 entries.add(features.METAL_SCAFFOLDING);
                 entries.add(features.METAL_WALKWAY);
 
