@@ -34,6 +34,7 @@ public class tab {
                 entries.add(features.POLISHED_DIORITE_BRICKS);
                 entries.add(features.POLISHED_DIORITE_BRICK_STAIRS);
                 entries.add(features.POLISHED_DIORITE_BRICK_SLAB);
+                entries.add(features.POLISHED_DIORITE_BRICK_WALL);
                 entries.add(features.POLISHED_ANDESITE_BRICKS);
                 entries.add(features.POLISHED_ANDESITE_BRICK_STAIRS);
                 entries.add(features.POLISHED_ANDESITE_BRICK_SLAB);

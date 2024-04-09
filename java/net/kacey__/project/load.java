@@ -28,6 +28,7 @@ public class load {
 		net.kacey__.project.settings.load.block("polished_diorite_bricks", features.POLISHED_DIORITE_BRICKS);
 		net.kacey__.project.settings.load.block("polished_diorite_brick_stairs", features.POLISHED_DIORITE_BRICK_STAIRS);
 		net.kacey__.project.settings.load.block("polished_diorite_brick_slab", features.POLISHED_DIORITE_BRICK_SLAB);
+		net.kacey__.project.settings.load.block("polished_diorite_brick_wall", features.POLISHED_DIORITE_BRICK_WALL);
 		net.kacey__.project.settings.load.block("polished_andesite_bricks", features.POLISHED_ANDESITE_BRICKS);
 		net.kacey__.project.settings.load.block("polished_andesite_brick_stairs", features.POLISHED_ANDESITE_BRICK_STAIRS);
 		net.kacey__.project.settings.load.block("polished_andesite_brick_slab", features.POLISHED_ANDESITE_BRICK_SLAB);
