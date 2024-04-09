@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_wall_post",
   "textures": {
-    "wall": "minecraft:block/polished_diorite_bricks"
+    "wall": "kaceysmod:block/polished_diorite_bricks"
   }
 }

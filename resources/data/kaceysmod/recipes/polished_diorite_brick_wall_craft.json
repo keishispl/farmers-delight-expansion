@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "kaceysmod:polished_diorite_bricks"
+    }
+  },
+  "result": {
+    "item": "kaceysmod:polished_diorite_brick_wall",
+    "count": 6
+  }
+}
