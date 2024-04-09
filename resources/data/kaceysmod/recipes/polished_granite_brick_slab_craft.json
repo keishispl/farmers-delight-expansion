@@ -4,7 +4,7 @@
   "group": "polished_stairs",
   "key": {
     "#": {
-      "item": "kaceysmod:polished_andesite_bricks"
+      "item": "kaceysmod:polished_granite_bricks"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 6,
-    "item": "kaceysmod:polished_andesite_bricks_slab"
+    "item": "kaceysmod:polished_granite_brick_slab"
   }
 }

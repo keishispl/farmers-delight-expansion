@@ -8,8 +8,8 @@ import net.minecraft.util.Identifier;
 public class load {
 	public static void features() {
 		net.kacey__.project.settings.load.block("quartz_tiles", features.QUARTZ_TILES);
-		net.kacey__.project.settings.load.block("quartz_tiles_stairs", features.QUARTZ_TILES_STAIRS);
-		net.kacey__.project.settings.load.block("quartz_tiles_slab", features.QUARTZ_TILES_SLAB);
+		net.kacey__.project.settings.load.block("quartz_tile_stairs", features.QUARTZ_TILE_STAIRS);
+		net.kacey__.project.settings.load.block("quartz_tile_slab", features.QUARTZ_TILE_SLAB);
 
 		net.kacey__.project.settings.load.block("cleansed_amethyst", features.CLEANSED_AMETHYST);
 		net.kacey__.project.settings.load.block("cleansed_amethyst_bricks", features.CLEANSED_AMETHYST_BRICKS);
@@ -26,14 +26,14 @@ public class load {
 		net.kacey__.project.settings.load.block("metal_walkway", features.METAL_WALKWAY);
 
 		net.kacey__.project.settings.load.block("polished_diorite_bricks", features.POLISHED_DIORITE_BRICKS);
-		net.kacey__.project.settings.load.block("polished_diorite_bricks_stairs", features.POLISHED_DIORITE_BRICKS_STAIRS);
-		net.kacey__.project.settings.load.block("polished_diorite_bricks_slab", features.POLISHED_DIORITE_BRICKS_SLAB);
+		net.kacey__.project.settings.load.block("polished_diorite_brick_stairs", features.POLISHED_DIORITE_BRICK_STAIRS);
+		net.kacey__.project.settings.load.block("polished_diorite_brick_slab", features.POLISHED_DIORITE_BRICK_SLAB);
 		net.kacey__.project.settings.load.block("polished_andesite_bricks", features.POLISHED_ANDESITE_BRICKS);
-		net.kacey__.project.settings.load.block("polished_andesite_bricks_stairs", features.POLISHED_ANDESITE_BRICKS_STAIRS);
-		net.kacey__.project.settings.load.block("polished_andesite_bricks_slab", features.POLISHED_ANDESITE_BRICKS_SLAB);
+		net.kacey__.project.settings.load.block("polished_andesite_brick_stairs", features.POLISHED_ANDESITE_BRICK_STAIRS);
+		net.kacey__.project.settings.load.block("polished_andesite_brick_slab", features.POLISHED_ANDESITE_BRICK_SLAB);
 		net.kacey__.project.settings.load.block("polished_granite_bricks", features.POLISHED_GRANITE_BRICKS);
-		net.kacey__.project.settings.load.block("polished_granite_bricks_stairs", features.POLISHED_GRANITE_BRICKS_STAIRS);
-		net.kacey__.project.settings.load.block("polished_granite_bricks_slab", features.POLISHED_GRANITE_BRICKS_SLAB);
+		net.kacey__.project.settings.load.block("polished_granite_brick_stairs", features.POLISHED_GRANITE_BRICK_STAIRS);
+		net.kacey__.project.settings.load.block("polished_granite_brick_slab", features.POLISHED_GRANITE_BRICK_SLAB);
 
 		net.kacey__.project.settings.load.item("smallsword", features.SMALLSWORD);
 	}

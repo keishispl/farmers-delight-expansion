@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "kaceysmod:block/polished_diorite_bricks_slab"
+      "model": "kaceysmod:block/polished_diorite_brick_slab"
     },
     "type=double": {
       "model": "kaceysmod:block/polished_diorite_bricks"
     },
     "type=top": {
-      "model": "kaceysmod:block/polished_diorite_bricks_slab_top"
+      "model": "kaceysmod:block/polished_diorite_brick_slab_top"
     }
   }
 }

@@ -24,6 +24,9 @@ public class create {
     public static Block transblock(Float hardness, Float resistance, BlockSoundGroup sound, Boolean redstone) {
         return new Block(FabricBlockSettings.create().nonOpaque().strength(hardness, resistance).sounds(sound).postProcess((bs, br, bp) -> redstone));
     }
+
+
+
     public static FabricBlockSettings blockSettings(Float hardness, Float resistance, BlockSoundGroup sound, Boolean redstone) {
         return FabricBlockSettings.create().strength(hardness, resistance).sounds(sound).postProcess((bs, br, bp) -> redstone);
     }

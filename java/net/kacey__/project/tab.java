@@ -22,8 +22,8 @@ public class tab {
             .displayName(Text.translatable("Kacey's Mod"))
             .entries((context, entries) -> {
                 entries.add(features.QUARTZ_TILES);
-                entries.add(features.QUARTZ_TILES_STAIRS);
-                entries.add(features.QUARTZ_TILES_SLAB);
+                entries.add(features.QUARTZ_TILE_STAIRS);
+                entries.add(features.QUARTZ_TILE_SLAB);
 
                 entries.add(features.METAL_SHEET);
                 entries.add(features.METAL_BLOCK);
@@ -32,14 +32,14 @@ public class tab {
                 entries.add(features.METAL_WALKWAY);
 
                 entries.add(features.POLISHED_DIORITE_BRICKS);
-                entries.add(features.POLISHED_DIORITE_BRICKS_STAIRS);
-                entries.add(features.POLISHED_DIORITE_BRICKS_SLAB);
+                entries.add(features.POLISHED_DIORITE_BRICK_STAIRS);
+                entries.add(features.POLISHED_DIORITE_BRICK_SLAB);
                 entries.add(features.POLISHED_ANDESITE_BRICKS);
-                entries.add(features.POLISHED_ANDESITE_BRICKS_STAIRS);
-                entries.add(features.POLISHED_ANDESITE_BRICKS_SLAB);
+                entries.add(features.POLISHED_ANDESITE_BRICK_STAIRS);
+                entries.add(features.POLISHED_ANDESITE_BRICK_SLAB);
                 entries.add(features.POLISHED_GRANITE_BRICKS);
-                entries.add(features.POLISHED_GRANITE_BRICKS_STAIRS);
-                entries.add(features.POLISHED_GRANITE_BRICKS_SLAB);
+                entries.add(features.POLISHED_GRANITE_BRICK_STAIRS);
+                entries.add(features.POLISHED_GRANITE_BRICK_SLAB);
 
                 entries.add(features.CLEANSED_AMETHYST);
                 entries.add(features.CLEANSED_AMETHYST_BRICKS);
