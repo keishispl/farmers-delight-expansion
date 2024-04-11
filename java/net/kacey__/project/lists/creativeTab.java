@@ -2,20 +2,16 @@
 /*
  *	MCreator note: This file will be REGENERATED on each build.
  */
-package net.kacey__.project;
+package net.kacey__.project.lists;
 
+import net.kacey__.project.features;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
-import net.minecraft.util.Identifier;
 import net.minecraft.text.Text;
 
 import net.fabricmc.fabric.api.itemgroup.v1.*;
 
-import net.kacey__.KaceysMod;
-
-public class tab {
+public class creativeTab {
 
     public static ItemGroup CREATIVE_TAB = FabricItemGroup.builder()
             .icon(() -> new ItemStack(features.SMALLSWORD))
@@ -38,9 +34,11 @@ public class tab {
                 entries.add(features.POLISHED_ANDESITE_BRICKS);
                 entries.add(features.POLISHED_ANDESITE_BRICK_STAIRS);
                 entries.add(features.POLISHED_ANDESITE_BRICK_SLAB);
+                entries.add(features.POLISHED_ANDESITE_BRICK_WALL);
                 entries.add(features.POLISHED_GRANITE_BRICKS);
                 entries.add(features.POLISHED_GRANITE_BRICK_STAIRS);
                 entries.add(features.POLISHED_GRANITE_BRICK_SLAB);
+                entries.add(features.POLISHED_GRANITE_BRICK_WALL);
 
                 entries.add(features.CLEANSED_AMETHYST);
                 entries.add(features.CLEANSED_AMETHYST_BRICKS);

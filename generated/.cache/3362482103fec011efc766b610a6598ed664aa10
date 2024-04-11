@@ -1,0 +1,9 @@
+// 1.20.4	2024-04-11T08:29:17.12333	Kacey's Mod/Tags for minecraft:block
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data/minecraft/tags/blocks/needs_iron_tool.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data/minecraft/tags/blocks/needs_diamond_tool.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data/minecraft/tags/blocks/fences.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data/minecraft/tags/blocks/needs_stone_tool.json
+23db98a0ccf6075f5b84dc8e39c09669f5442a4a data/minecraft/tags/blocks/logs.json
+bd86dffb9b699bc10040de5b9e236328da9a5c7c data/minecraft/tags/blocks/walls.json
+987a8ccb83e6d62dada8ed4ed708cfdbf61959a7 data/minecraft/tags/blocks/mineable/pickaxe.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data/minecraft/tags/blocks/fence_gates.json
