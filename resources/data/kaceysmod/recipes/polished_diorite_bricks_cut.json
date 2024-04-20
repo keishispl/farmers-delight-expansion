@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "group": "polishedvanilla",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:polished_diorite"
-  },
-  "result": "kaceysmod:polished_diorite_bricks"
-}

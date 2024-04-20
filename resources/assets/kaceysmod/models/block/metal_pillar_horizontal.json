@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column_horizontal",
-  "textures": {
-    "end": "kaceysmod:block/metal_pillar_top",
-    "side": "kaceysmod:block/metal_pillar"
-  }
-}

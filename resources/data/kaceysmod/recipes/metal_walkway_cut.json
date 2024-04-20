@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "group": "metal",
-  "count": 2,
-  "ingredient": {
-    "item": "kaceysmod:metal_scaffolding"
-  },
-  "result": "kaceysmod:metal_walkway"
-}

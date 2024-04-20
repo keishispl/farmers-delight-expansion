@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "group": "polishedvanilla",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:polished_granite"
-  },
-  "result": "kaceysmod:polished_granite_bricks"
-}
