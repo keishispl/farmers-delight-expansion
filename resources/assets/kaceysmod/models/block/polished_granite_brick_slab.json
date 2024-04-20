@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "kaceysmod:block/polished_granite_bricks",
-    "side": "kaceysmod:block/polished_granite_bricks",
-    "top": "kaceysmod:block/polished_granite_bricks"
-  }
-}

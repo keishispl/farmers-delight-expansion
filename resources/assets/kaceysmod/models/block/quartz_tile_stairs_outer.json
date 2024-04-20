@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "bottom": "kaceysmod:block/quartz_tiles",
-    "side": "kaceysmod:block/quartz_tiles",
-    "top": "kaceysmod:block/quartz_tiles"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "kaceysmod:block/metal_scaffolding",
-    "side": "kaceysmod:block/metal_scaffolding",
-    "top": "kaceysmod:block/metal_scaffolding"
-  }
-}
