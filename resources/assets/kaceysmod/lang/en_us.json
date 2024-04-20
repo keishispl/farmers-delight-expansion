@@ -1,0 +1,32 @@
+{
+  "block.kaceysmod.quartz_tiles": "Quartz Tiles",
+  "block.kaceysmod.quartz_tile_stairs": "Quartz Tile Stairs",
+  "block.kaceysmod.quartz_tile_slab": "Quartz Tile Slab",
+
+  "item.kaceysmod.metal_sheet": "Metal Sheet",
+  "block.kaceysmod.metal_block": "Metal Block",
+  "block.kaceysmod.metal_pillar": "Metal Pillar",
+  "block.kaceysmod.metal_scaffolding": "Metal Scaffolding",
+  "block.kaceysmod.metal_walkway": "Metal Walkway",
+
+  "block.kaceysmod.polished_diorite_bricks": "Polished Diorite Bricks",
+  "block.kaceysmod.polished_diorite_brick_stairs": "Polished Diorite Brick Stairs",
+  "block.kaceysmod.polished_diorite_brick_slab": "Polished Diorite Brick Slab",
+  "block.kaceysmod.polished_diorite_brick_wall": "Polished Diorite Brick Wall",
+  "block.kaceysmod.polished_andesite_bricks": "Polished Andesite Bricks",
+  "block.kaceysmod.polished_andesite_brick_stairs": "Polished Andesite Brick Stairs",
+  "block.kaceysmod.polished_andesite_brick_slab": "Polished Andesite Brick Slab",
+  "block.kaceysmod.polished_granite_bricks": "Polished Granite Bricks",
+  "block.kaceysmod.polished_granite_brick_stairs": "Polished Granite Brick Stairs",
+  "block.kaceysmod.polished_granite_brick_slab": "Polished Granite Brick Slab",
+
+  "block.kaceysmod.cleansed_amethyst": "Cleansed Amethyst Block",
+  "block.kaceysmod.cleansed_amethyst_bricks": "Cleansed Amethyst Bricks",
+  "item.kaceysmod.amethyst_sheet": "Amethyst Sheet",
+  "item.kaceysmod.condensed_amethyst": "Condensed Amethyst",
+  "item.kaceysmod.amethyst_core": "Amethyst Core",
+  "item.kaceysmod.amethyst_netherite_ingot": "Amethyst Netherite Ingot",
+  "item.kaceysmod.amethyst_longsword": "Amethyst Longsword",
+
+  "item.kaceysmod.smallsword": "Smallsword"
+}

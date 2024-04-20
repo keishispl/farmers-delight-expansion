@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "kaceysmod:amethyst_core"
+  },
+  "base": {
+    "item": "minecraft:diamond_sword"
+  },
+  "addition": {
+    "item": "kaceysmod:amethyst_netherite_ingot"
+  },
+  "result": {
+    "item": "kaceysmod:amethyst_longsword"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "cleansed_amethyst",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:amethyst_block"
+    },
+    "1": {
+      "item": "minecraft:amethyst_block"
+    },
+    "2": {
+      "item": "minecraft:amethyst_block"
+    },
+    "3": {
+      "item": "minecraft:amethyst_block"
+    }
+  },
+  "result": {
+    "item": "kaceysmod:cleansed_amethyst",
+    "count": 4
+  }
+}

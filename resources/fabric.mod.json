@@ -1,16 +1,16 @@
 {
 	"schemaVersion": 1,
-	"id": "kaceysdatapack",
-	"version": "1.0.0",
-	"name": "Kacey's Datapack",
-	"description": "Datapack for Minecraft.",
+	"id": "kaceysmod",
+	"version": "1.2.1",
+	"name": "Kacey's Mod",
+	"description": "Small additions to Minecraft. Created while learning Java.",
 	"authors": [
 		"Kacey__"
 	],
 	"contact": {
-		"homepage": "https://keishispl.github.io/",
-		"sources": "https://github.com/keishispl/kaceysdatapack",
-		"downloads": "https://github.com/keishispl/kaceysdatapack",
+		"homepage": "https://keishispl.github.io/kaceysmod",
+		"sources": "https://github.com/keishispl/kaceysmod",
+		"downloads": "https://modrinth.com/kaceys-mod",
 		"twitter": "https://twitter.com/keishispl"
 	},
 	"license": "CC0-1.0",
@@ -18,23 +18,27 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.kacey__.KaceysDatapack"
+			"net.kacey__.KaceysMod"
 		],
 		"client": [
-			"net.kacey__.KaceysDatapackClient"
+			"net.kacey__.KaceysModClient"
+		],
+		"fabric-datagen": [
+			"net.kacey__.project.util.dataGen"
 		]
 	},
 	"mixins": [
-		"kaceysdatapack.mixins.json",
+		"kaceysmod.mixins.json",
 		{
-			"config": "kaceysdatapack.client.mixins.json",
+			"config": "kaceysmod.client.mixins.json",
 			"environment": "client"
 		}
 	],
 	"depends": {
 		"fabricloader": ">=0.15.6",
 		"minecraft": "~1.20.4",
-		"java": ">=17"
+		"java": ">=17",
+		"fabric-api": "*"
 	},
 	"suggests": {
 		"another-mod": "*"

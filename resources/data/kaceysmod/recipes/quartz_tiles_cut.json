@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "quartz_tiles",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:quartz_block"
+  },
+  "result": "kaceysmod:quartz_tiles"
+}
