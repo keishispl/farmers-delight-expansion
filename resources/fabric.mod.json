@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "kaceysdatapack",
+	"id": "dropmorerice",
 	"version": "1.0.0",
-	"name": "Kacey's Datapack",
-	"description": "Datapack for Minecraft.",
+	"name": "Drop More Rice",
+	"description": "Please! Just Drop More Rice from the Crops!",
 	"authors": [
 		"Kacey__"
 	],
@@ -18,25 +18,18 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.kacey__.KaceysDatapack"
-		],
-		"client": [
-			"net.kacey__.KaceysDatapackClient"
+			"com.github.keishispl.GetMoreRice"
 		]
 	},
-	"mixins": [
-		"kaceysdatapack.mixins.json",
-		{
-			"config": "kaceysdatapack.client.mixins.json",
-			"environment": "client"
-		}
-	],
 	"depends": {
 		"fabricloader": ">=0.15.6",
-		"minecraft": "~1.20.4",
-		"java": ">=17"
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+      	"farmersdelight": "~1.20.1-1.4.3"
 	},
-	"suggests": {
-		"another-mod": "*"
+	"custom": {
+		"modmenu": {
+			"parent": "farmersdelight"
+		}
 	}
 }
