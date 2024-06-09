@@ -1,15 +1,33 @@
-# Kacey's Datapack
-This is a mod made to change recipes and item names.
+<img src="resources/icon.png" alt="Rice" width="300" height="300">
 
-e.g. Soul Campfire -> Copper Campfire
-# Help Guide
-For downloading, please visit [the Modrinth page](https://modrinth.com/mod/kaceys-datapack).
+# DropMoreRice
+This is a mod made to change loot tables and add advancements from the Farmer's Delight mod.
 
-If you want to know more about the mod, you can also visit [our website](https://keishispl.github.io/kaceysmod).
+# Features
+* Added 3 achievements relating to rice
+* Rice will drop between 1 - 4 items on mine
 
-If you need desperate help and Github issues is not helping, feel free to talk to me on Discord: keishispl
+# Links
+**IMPORTANT!** Please make sure to install [Farmer's Delight [Fabric]](https://modrinth.com/mod/farmers-delight-fabric)!
 
-# License
-Feel free to distribute this mod in my name, DO NOT sell this mod for your own gain.
-Using code in my mod is allowed, but ask me on Discord first and credit me in your mod.
-Feel free to use this in a modpack, just make sure to credit me as well.
+For downloading, please visit [Modrinth](https://modrinth.com/mod/dropmorerice).
+
+If there are any issues with the mod, report them to the [issue tracker](https://github.com/keishispl/dropmorerice/issues).
+
+# FAQ
+
+***Q. Which Minecraft versions will the mod be updated for?***
+
+Versions that Farmer's Delight will be updating to. I will not be supporting older versions of Farmer's Delight.
+
+***Q. Can I use this mod into my modpack?***
+
+Yes! Feel free to feature DropMoreRice in your modpack. Just keep in mind:
+
+>Make sure to credit, and don't claim DropMoreRice as your own creation
+> 
+>Remember that this mod requires Farmer's Delight [Fabric], so remember to download it first!
+
+***Q. Will new features be added to the mod?***
+
+Yes, if I have ideas to implement, or feel free to suggest your own ideas!
