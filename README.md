@@ -8,7 +8,7 @@ This is a mod made to change loot tables and add advancements from the Farmer's 
 * Rice will drop between 1 - 4 items on mine
 
 # Links
-**IMPORTANT!** Please make sure to install [Farmer's Delight [Fabric]](https://modrinth.com/mod/farmers-delight-fabric)!
+**IMPORTANT!** Please make sure to install [Deprecated Farmer's Delight](https://modrinth.com/mod/farmers-delight-fabric) or [Farmer's Delight Refabricated](https://modrinth.com/mod/farmers-delight-refabricated)!
 
 For downloading, please visit [Modrinth](https://modrinth.com/mod/dropmorerice).
 
