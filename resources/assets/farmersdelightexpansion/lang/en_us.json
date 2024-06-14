@@ -1,0 +1,12 @@
+{
+  "item.farmersdelightexpansion.orange": "Orange",
+  "item.farmersdelightexpansion.orange_slice": "Orange Slice",
+  "item.farmersdelightexpansion.orange_juice": "Orange Juice",
+  "item.farmersdelightexpansion.grapes": "Grapes",
+  "item.farmersdelightexpansion.grape_juice": "Grape Juice",
+
+  "block.farmersdelightexpansion.grape": "Grape Bush",
+
+  "effect.farmersdelightexpansion.refreshing": "Refreshing",
+  "effect.farmersdelightexpansion.refreshing.tooltip": "Refreshing (05:00)"
+}

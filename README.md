@@ -1,18 +1,20 @@
-<img src="resources/icon.png" alt="Rice" width="300" height="300">
+<img src="resources/logo.png" alt="Rice">
 
-# DropMoreRice
-This is a mod made to change loot tables and add advancements from the Farmer's Delight mod.
+This is a mod made to add new foodstuffs and quality of life changes to the Farmer's Delight mod and Minecraft itself.
 
 # Features
-* Added 3 achievements relating to rice
-* Rice will drop between 1 - 4 items on mine
+* 3 achievements relating to Rice
+* Apples will drop more from Oak Leaves
+* Rice will drop more from Rice Panicle
+* Oranges, Orange Slices and Orange Juice
+* Grapes, Grape Bush and Grape Juice
 
 # Links
 **IMPORTANT!** Please make sure to install [Deprecated Farmer's Delight](https://modrinth.com/mod/farmers-delight-fabric) or [Farmer's Delight Refabricated](https://modrinth.com/mod/farmers-delight-refabricated)!
 
-For downloading, please visit [Modrinth](https://modrinth.com/mod/dropmorerice).
+For downloading, please visit [Modrinth](https://modrinth.com/mod/farmers-delight-expansion).
 
-If there are any issues with the mod, report them to the [issue tracker](https://github.com/keishispl/dropmorerice/issues).
+If there are any issues with the mod, report them to the [issue tracker](https://github.com/keishispl/farmers-delight-expansion/issues).
 
 # FAQ
 
@@ -22,11 +24,11 @@ Versions that Farmer's Delight will be updating to. I will not be supporting old
 
 ***Q. Can I use this mod into my modpack?***
 
-Yes! Feel free to feature DropMoreRice in your modpack. Just keep in mind:
+Yes! Feel free to feature Farmer's Delight Expansion in your modpack. Just keep in mind:
 
->Make sure to credit, and don't claim DropMoreRice as your own creation
+>Make sure to credit, and don't claim Farmer's Delight Expansion as your own creation
 > 
->Remember that this mod requires Farmer's Delight [Fabric], so remember to download it first!
+>Remember that this mod requires Farmer's Delight Fabric, so remember to download it first!
 
 ***Q. Will new features be added to the mod?***
 
