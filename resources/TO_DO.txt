@@ -1,6 +1,4 @@
-- Rebrand mod to "farmersdelightexpansion", Farmer's Delight: Food Expansion, "farmers-delight-expansion"
 - Add blender, to make drinks (Like cooking pot)
 - Add fruit punch from blender
 - Add all kinds of fruit juice from blender
-- Add mixed fruit bowl to cooking pot
 - Make grapes generate naturally

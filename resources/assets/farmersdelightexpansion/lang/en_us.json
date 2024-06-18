@@ -1,12 +1,29 @@
 {
-  "item.farmersdelightexpansion.orange": "Orange",
-  "item.farmersdelightexpansion.orange_slice": "Orange Slice",
-  "item.farmersdelightexpansion.orange_juice": "Orange Juice",
-  "item.farmersdelightexpansion.grapes": "Grapes",
-  "item.farmersdelightexpansion.grape_juice": "Grape Juice",
-
   "block.farmersdelightexpansion.grape": "Grape Bush",
 
+
+  "item.farmersdelightexpansion.orange": "Orange",
+  "item.farmersdelightexpansion.orange_slice": "Orange Slice",
+  "item.farmersdelightexpansion.grapes": "Grapes",
+
+  "item.farmersdelightexpansion.orange_juice": "Orange Juice",
+  "item.farmersdelightexpansion.grape_juice": "Grape Juice",
+
+  "item.farmersdelightexpansion.tomato_egg_rice": "Tomato Egg Rice",
+  "item.farmersdelightexpansion.mixed_fruit_bowl": "Mixed Fruit Bowl",
+
+
   "effect.farmersdelightexpansion.refreshing": "Refreshing",
-  "effect.farmersdelightexpansion.refreshing.tooltip": "Refreshing (05:00)"
+  "effect.farmersdelightexpansion.refreshing.tooltip": "Refreshing (05:00)",
+  "effect.farmersdelightexpansion.nourishment.tooltip": "Nourishment (05:00)",
+
+
+  "advancements.farmersdelightexpansion.get_fruits": "Fruits of the Wild",
+  "advancements.farmersdelightexpansion.get_fruits.desc": "Obtain the new fruits.. or the vanilla ones, that works too.",
+  "advancements.farmersdelightexpansion.eat_refreshing_food": "Refreshing!",
+  "advancements.farmersdelightexpansion.eat_refreshing_food.desc": "Enjoy the coldness and refreshing taste of the new drinks!",
+  "advancements.farmersdelightexpansion.eat_chorus_fruit": "Unexpected Consequences",
+  "advancements.farmersdelightexpansion.eat_chorus_fruit.desc": "This fruit has a weird taste.. It teleports me around everytime I eat it!",
+  "advancements.farmersdelightexpansion.get_all_fruits": "Gotta Get Them All!",
+  "advancements.farmersdelightexpansion.get_all_fruits.desc": "All the fruits - obtained!"
 }

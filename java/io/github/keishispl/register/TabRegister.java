@@ -17,6 +17,8 @@ public class TabRegister {
                 entries.add(ItemRegister.ORANGE);
                 entries.add(ItemRegister.ORANGE_SLICE);
                 entries.add(ItemRegister.GRAPES);
+                entries.add(ItemRegister.TOMATO_EGG_RICE);
+                entries.add(ItemRegister.MIXED_FRUIT_BOWL);
                 entries.add(ItemRegister.ORANGE_JUICE);
                 entries.add(ItemRegister.GRAPE_JUICE);
             })

@@ -1,4 +1,4 @@
-package io.github.keishispl.Blocks;
+package io.github.keishispl.block;
 
 import io.github.keishispl.register.ItemRegister;
 import net.minecraft.block.*;
@@ -28,14 +28,14 @@ import net.minecraft.world.WorldView;
 import net.minecraft.world.event.GameEvent;
 import net.minecraft.world.event.GameEvent.Emitter;
 
-public class grape extends PlantBlock implements Fertilizable {
+public class GrapeBlock extends PlantBlock implements Fertilizable {
     private static final float field_31260 = 0.003F;
     public static final int MAX_AGE = 3;
     public static final IntProperty AGE;
     private static final VoxelShape SMALL_SHAPE;
     private static final VoxelShape LARGE_SHAPE;
 
-    public grape(AbstractBlock.Settings settings) {
+    public GrapeBlock(AbstractBlock.Settings settings) {
         super(settings);
         this.setDefaultState((BlockState)((BlockState)this.stateManager.getDefaultState()).with(AGE, 0));
     }
@@ -73,7 +73,9 @@ public class grape extends PlantBlock implements Fertilizable {
                 double d = Math.abs(entity.getX() - entity.lastRenderX);
                 double e = Math.abs(entity.getZ() - entity.lastRenderZ);
                 if (d >= 0.003000000026077032 || e >= 0.003000000026077032) {
-                    entity.damage(world.getDamageSources().sweetBerryBush(), 1.0F);
+                    if (!entity.isSneaking()) {
+                        entity.damage(world.getDamageSources().sweetBerryBush(), 1.0F);
+                    }
                 }
             }
 

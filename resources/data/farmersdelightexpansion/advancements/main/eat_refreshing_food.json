@@ -1,0 +1,34 @@
+{
+  "parent": "farmersdelightexpansion:main/get_fruits",
+  "criteria": {
+    "refreshing": {
+      "conditions": {
+        "effects": {
+          "farmersdelightexpansion:refreshing": {}
+        }
+      },
+      "trigger": "minecraft:effects_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.farmersdelightexpansion.eat_refreshing_food.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "farmersdelightexpansion:orange_juice"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.farmersdelightexpansion.eat_refreshing_food"
+    }
+  },
+  "requirements": [
+    [
+      "refreshing"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
