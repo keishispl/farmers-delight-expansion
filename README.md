@@ -4,7 +4,7 @@ This is a mod made to add new foodstuffs, plants and quality of life changes to 
 
 # Features
 * Achievements relating to Rice
-* Achievements about the new mod
+* Achievements introducing this mod
 * Apples will drop more from Oak Leaves/Dark Oak Leaves
 * Rice will drop more from Rice Panicle
 * Oranges & Orange Slices
