@@ -61,6 +61,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "blueberries": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelightexpansion:blueberries"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "sweet_berries": {
       "conditions": {
         "items": [
@@ -132,6 +144,7 @@
       "apple",
       "orange",
       "grapes",
+      "blueberries",
       "sweet_berries",
       "glow_berries",
       "cocoa_beans",

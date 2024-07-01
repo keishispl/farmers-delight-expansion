@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "farmersdelightexpansion:blueberry_cheesecake"
+    }
+  ],
+  "result": [
+    {
+      "count": 4,
+      "item": "farmersdelightexpansion:blueberry_cheesecake_slice"
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knives"
+  }
+}

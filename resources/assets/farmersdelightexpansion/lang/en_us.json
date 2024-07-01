@@ -1,19 +1,29 @@
 {
-  "block.farmersdelightexpansion.grape": "Grape Bush",
-
-
-  "item.farmersdelightexpansion.orange_juice": "Orange Juice",
-  "item.farmersdelightexpansion.grape_juice": "Grape Juice",
-
   "item.farmersdelightexpansion.orange": "Orange",
   "item.farmersdelightexpansion.orange_slice": "Orange Slice",
+  "item.farmersdelightexpansion.orange_juice": "Orange Juice",
+
+  "block.farmersdelightexpansion.grape": "Grape Bush",
   "item.farmersdelightexpansion.grapes": "Grapes",
+  "item.farmersdelightexpansion.grape_juice": "Grape Juice",
+
+  "block.farmersdelightexpansion.blueberry": "Blueberry Bush",
+  "item.farmersdelightexpansion.blueberries": "Blueberries",
+  "block.farmersdelightexpansion.blueberry_cheesecake": "Blueberry Cheesecake",
+  "item.farmersdelightexpansion.blueberry_cheesecake_slice": "Slice of Blueberry Cheesecake",
+
+
 
   "item.farmersdelightexpansion.tomato_egg_rice": "Tomato Egg Rice",
+  "item.farmersdelightexpansion.pork_ramen": "Pork Ramen",
   "item.farmersdelightexpansion.mixed_fruit_bowl": "Mixed Fruit Bowl",
 
 
+
+
   "effect.farmersdelightexpansion.refreshing": "Refreshing",
+
+
 
 
   "advancements.farmersdelightexpansion.get_fruits": "Fruits of the Wild",

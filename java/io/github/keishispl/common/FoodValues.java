@@ -28,12 +28,17 @@ public class FoodValues {
             .hunger(4).saturationModifier(0.3F).build();
     public static final FoodComponent GRAPES = (new FoodComponent.Builder())
             .hunger(2).saturationModifier(0.1F).build();
+    public static final FoodComponent BLUEBERRIES = (new FoodComponent.Builder())
+            .hunger(2).saturationModifier(0.1F).build();
 
 
     // Nice Foods
     public static final FoodComponent TOMATO_EGG_RICE = (new FoodComponent.Builder())
             .hunger(14).saturationModifier(0.75f)
             .statusEffect(new StatusEffectInstance(ModEffects.COMFORT.get(), LONG_DURATION, 0), 1.0F).build();
+    public static final FoodComponent PORK_RAMEN = (new FoodComponent.Builder())
+            .hunger(14).saturationModifier(0.75f)
+            .statusEffect(new StatusEffectInstance(ModEffects.NOURISHMENT.get(), MEDIUM_DURATION, 0), 1.0F).build();
     public static final FoodComponent MIXED_FRUIT_BOWL = (new FoodComponent.Builder())
             .hunger(6).saturationModifier(0.6f).build();
 }
