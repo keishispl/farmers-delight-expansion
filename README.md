@@ -3,14 +3,10 @@
 This is a mod made to add new foodstuffs, plants and quality of life changes to the Farmer's Delight mod and Minecraft itself.
 
 # Features
-* Achievements relating to Rice
-* Achievements introducing this mod
-* Apples will drop more from Oak Leaves/Dark Oak Leaves
-* Rice will drop more from Rice Panicle
-* Oranges & Orange Slices
-* Grapes & Grape Bushes
-* Fruit Juices
-* New Foods
+* Achievements relating to Farmer's Delight & This Mod
+* Better Crop Drops (e.g. Apple, Rice)
+* Fruits, Juices, Foods & Sweets
+* Eggs stack all the way to 64
 
 # Links
 **IMPORTANT!** Please make sure to install [Farmer's Delight Refabricated](https://modrinth.com/mod/farmers-delight-refabricated) or [Deprecated Farmer's Delight](https://modrinth.com/mod/farmers-delight-fabric)!
