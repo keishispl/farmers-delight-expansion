@@ -1,6 +1,6 @@
-package io.github.keishispl.block;
+package io.github.keishispl.specify.block;
 
-import io.github.keishispl.register.ItemRegister;
+import io.github.keishispl.registry.ModItems;
 import net.minecraft.block.*;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
@@ -41,7 +41,7 @@ public class GrapeBlock extends PlantBlock implements Fertilizable {
     }
 
     public ItemStack getPickStack(BlockView world, BlockPos pos, BlockState state) {
-        return new ItemStack(ItemRegister.GRAPES);
+        return new ItemStack(ModItems.GRAPES.get());
     }
 
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
@@ -89,7 +89,7 @@ public class GrapeBlock extends PlantBlock implements Fertilizable {
             return ActionResult.PASS;
         } else if (i > 1) {
             int j = 1 + world.random.nextInt(2);
-            dropStack(world, pos, new ItemStack(ItemRegister.GRAPES, j + (bl ? 1 : 0)));
+            dropStack(world, pos, new ItemStack(ModItems.GRAPES.get(), j + (bl ? 1 : 0)));
             world.playSound((PlayerEntity)null, pos, SoundEvents.BLOCK_SWEET_BERRY_BUSH_PICK_BERRIES, SoundCategory.BLOCKS, 1.0F, 0.8F + world.random.nextFloat() * 0.4F);
             BlockState blockState = (BlockState)state.with(AGE, 1);
             world.setBlockState(pos, blockState, 2);

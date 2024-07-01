@@ -1,8 +1,9 @@
 package io.github.keishispl;
 
-import io.github.keishispl.register.EffectRegister;
-import io.github.keishispl.register.ItemRegister;
-import io.github.keishispl.register.TabRegister;
+import io.github.keishispl.registry.ModBlocks;
+import io.github.keishispl.registry.ModStatusEffects;
+import io.github.keishispl.registry.ModItems;
+import io.github.keishispl.registry.ModCreativeTabs;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -15,9 +16,10 @@ public class FoodExpansion implements ModInitializer {
 	public void onInitialize() {
 		FoodExpansion.LOGGER.info("[FoodExpansion] Farmer's Delight exists! Thank you!");
 		FoodExpansion.LOGGER.info("[FoodExpansion] Loading delicious meals...");
-		ItemRegister.init();
-		TabRegister.init();
-		EffectRegister.init();
+		ModStatusEffects.STATUS_EFFECT.register();
+		ModBlocks.BLOCKS.register();
+		ModItems.ITEMS.register();
+		ModCreativeTabs.CREATIVE_TABS.register();
 		FoodExpansion.LOGGER.info("[FoodExpansion] Successfully loaded! Have fun!");
 	}
 }
