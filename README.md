@@ -11,6 +11,8 @@ This is a mod made to add new foodstuffs, plants and quality of life changes to 
 # Links
 **IMPORTANT!** Please make sure to install [Farmer's Delight Refabricated](https://modrinth.com/mod/farmers-delight-refabricated) or [Deprecated Farmer's Delight](https://modrinth.com/mod/farmers-delight-fabric)!
 
+These mods are recommended to enhance your gaming experience: [EMI](https://modrinth.com/mod/emi), [JEI](https://modrinth.com/mod/jei) or [REI](https://modrinth.com/mod/rei).
+
 For downloading, please visit [Modrinth](https://modrinth.com/mod/farmers-delight-expansion).
 
 If there are any issues with the mod, report them to the [issue tracker](https://github.com/keishispl/farmers-delight-expansion/issues).
