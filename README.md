@@ -1,4 +1,4 @@
-<img src="resources/logo.png" alt="Farmer's Delight Expansion">
+![Farmer's Delight Expansion](src/main/resources/logo.png)
 
 This is a mod made to add new foodstuffs, plants and quality of life changes to the Farmer's Delight mod and Minecraft itself.
 
