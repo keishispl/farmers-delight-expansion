@@ -1,0 +1,36 @@
+{
+  "parent": "farmersdelight:main/plant_rice",
+  "criteria": {
+    "eat_fried_rice": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "farmersdelight:fried_rice"
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "farmersdelight.advancement.eat_fried_rice.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "farmersdelight:fried_rice"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "farmersdelight.advancement.eat_fried_rice"
+    }
+  },
+  "requirements": [
+    [
+      "eat_fried_rice"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

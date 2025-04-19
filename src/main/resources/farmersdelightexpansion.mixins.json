@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "priority": 1100,
+  "package": "io.github.keishispl.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "${archivesBaseName}-refmap.json",
+  "mixins": [
+    "keishispl.farmersdelightexpansion.mixin.ItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}

@@ -1,0 +1,107 @@
+plugins {
+	id 'fabric-loom' version "1.10-SNAPSHOT"
+	id 'maven-publish'
+}
+
+version = project.mod_version + "+" + project.minecraft_version
+group = project.mod_authors
+
+base {
+	archivesName = project.archives_base_name
+}
+
+repositories {
+	maven {
+		name = "Greenhouse Maven"
+		url = 'https://maven.greenhouseteam.dev/releases/'
+	}
+	maven { url "https://mvn.devos.one/releases/" } // Porting Lib
+	maven {
+		url "https://maven.jamieswhiteshirt.com/libs-release" // Reach Entity Attributes (Required by Porting Lib)
+		content {
+			includeGroup "com.jamieswhiteshirt"
+		}
+	}
+	maven {
+		url "https://jitpack.io/" // Fabric ASM
+		content {
+			excludeGroup "io.github.fabricators_of_create"
+		}
+	}
+}
+loom {
+    splitEnvironmentSourceSets()
+
+	mods {
+		"farmersdelightexpansion" {
+			sourceSet sourceSets.main
+			sourceSet sourceSets.client
+		}
+	}
+
+}
+dependencies {
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+	modImplementation("vectorwing:FarmersDelight:${project.fdrf_version}") {
+		exclude(group: "net.fabricmc")
+	}
+}
+
+processResources {
+	var replaceProperties = [
+		mod_id				: mod_id,
+		mod_name			: mod_name,
+		mod_version			: mod_version,
+		mod_license			: mod_license,
+		mod_authors			: mod_authors,
+		mod_description		: mod_description,
+		mod_homepage		: mod_homepage,
+		mod_github			: mod_github,
+		mod_credits			: mod_credits,
+		minecraft_version	: minecraft_version
+	]
+	inputs.properties replaceProperties
+
+	filesMatching("fabric.mod.json") {
+		expand replaceProperties + [project: project]
+	}
+	filesMatching("farmersdelightexpansion.mixins.json") {
+		expand "archivesBaseName": archives_base_name
+	}
+}
+
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 17
+}
+
+java {
+	// Loom will automatically attach sourcesJar to a RemapSourcesJar task and to the "build" task
+	// if it is present.
+	// If you remove this line, sources will not be generated.
+	withSourcesJar()
+
+	sourceCompatibility = JavaVersion.VERSION_20
+	targetCompatibility = JavaVersion.VERSION_20
+}
+
+jar {
+	from("LICENSE") {
+		rename { "${it}_${project.base.archivesName.get()}"}
+	}
+}
+
+// configure the maven publication
+publishing {
+	publications {
+		mavenJava(MavenPublication) {
+			from components.java
+		}
+	}
+	repositories {
+
+	}
+}

@@ -9,7 +9,7 @@ This is a mod made to add new foodstuffs, plants and quality of life changes to 
 * Eggs stack all the way to 64
 
 # Links
-**IMPORTANT!** Please make sure to install [Farmer's Delight Refabricated](https://modrinth.com/mod/farmers-delight-refabricated) or [Deprecated Farmer's Delight](https://modrinth.com/mod/farmers-delight-fabric)!
+**IMPORTANT!** Please make sure to install [Farmer's Delight Refabricated](https://modrinth.com/mod/farmers-delight-refabricated) or [Farmer's Delight Fabric (Deprecated)](https://modrinth.com/mod/farmers-delight-fabric)!
 
 These mods are recommended to enhance your gaming experience: [EMI](https://modrinth.com/mod/emi), [JEI](https://modrinth.com/mod/jei) or [REI](https://modrinth.com/mod/rei).
 
@@ -28,7 +28,7 @@ Versions that Farmer's Delight will be updating to. I will not be supporting old
 Yes! Feel free to feature Farmer's Delight Expansion in your modpack. Just keep in mind:
 
 >Make sure to credit, and don't claim Farmer's Delight Expansion as your own creation
-> 
+>
 >Remember that this mod requires Farmer's Delight Fabric, so remember to download it first!
 
 ***Q. Will new features be added to the mod?***
